@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;700&family=Roboto:ital,wght@0,400;1,400;1,900&display=swap');
+
+div {
+  box-sizing: border-box;
+}
+
+.huvudcontainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  perspective: 2px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.bakgrund {
+  transform: translateZ(-1px) scale(2);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: calc(400px - 50vh);
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reviewjournal.com%2Fentertainment%2Fentertainment-columns%2Fkats%2Frap-star-juice-wrld-frequent-las-vegas-headliner-dies-at-21-1909729%2F&psig=AOvVaw3GJlIznvG60CUc1DHGY1a3&ust=1601669102517000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOiOjMSYlOwCFQAAAAAdAAAAABAU");
+  padding-top: 100px; 
+}
+
+.container {
+  margin-top:40px
+}
+
+ .huvudtext {
+  font-weight: bold;
+  font-size: 80px;
+  font-family: 'Oswald', sans-serif;
+  color: white
+  
+}
+
+.sidtext {
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 8px;
+  text-transform: lowercase;
+  font-family: 'Roboto', sans-serif;
+}
